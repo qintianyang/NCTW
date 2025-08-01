@@ -1,0 +1,14 @@
+# 实验4 TES模型配置
+num_classes: 2
+feature_dim: 2  # 该实验特征维度为2
+collapse_epsilon: 5.0
+collapse_weight: 0.1
+cls_weight: 1.0
+special_epoch_interval: 5  # 每5个epoch使用pre_loader
+learning_rate: 0.001
+weight_decay: 0.0001
+epochs: 200
+batch_size: 32
+optimizer: "Adam"
+scheduler_step_size: 30
+scheduler_gamma: 0.1
